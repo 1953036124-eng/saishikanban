@@ -1,0 +1,59 @@
+{
+  "id": "./",
+  "name": "英语赛事看板 · 赛事惊喜卡",
+  "short_name": "赛事看板",
+  "description": "英语类重大事项时间表看板：截止倒计时、月日程表、我的关注、重要比赛汇总，以及关注即可解锁的电影惊喜卡。可离线使用。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#FBFAF7",
+  "theme_color": "#FBFAF7",
+  "categories": ["education", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "我的卡册",
+      "short_name": "卡册",
+      "description": "查看已收集的赛事惊喜卡",
+      "url": "./#album",
+      "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "重要比赛汇总",
+      "short_name": "重要比赛",
+      "description": "直接跳到重要比赛汇总",
+      "url": "./#important"
+    },
+    {
+      "name": "我的关注",
+      "short_name": "我的关注",
+      "description": "查看已关注的赛事",
+      "url": "./#follows"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/shot-wide.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "赛事截止倒计时与月日程表"
+    },
+    {
+      "src": "assets/shot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "手机端赛事看板"
+    }
+  ]
+}
